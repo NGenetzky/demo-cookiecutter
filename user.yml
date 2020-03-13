@@ -1,0 +1,34 @@
+# Reference:
+# https://cookiecutter.readthedocs.io/en/latest/advanced/user_config.html
+
+default_context:
+    full_name: "Nathan Genetzky"
+    email: "nathan.genetzky@dojofive.com"
+    # scm
+    github_username: "ngenetzky-dojofive"
+    bitbucket_username: ngenetzky-dojofive 
+    gitlab_username: ngenetzky-dojofive 
+
+# TODO: Add more parts of d5 here.
+# source_code:
+#   - provider: PROVIDER_NAME
+#     username: SOURCE_USERNAME
+#     namespace: SOURCE_NAMESPACE
+#     repo: EXAMPLE_REPOSITORY
+#     project: EXAMPLE_PROJECT
+# build_infrastructure:
+#   - provider: BUILD_PROVIDER
+#     username: BUILD_INFRA_USERNAME
+#     generate-new-yaml: false
+# build:
+#   - executor: EXECUTOR_NAME
+#     image: BUILD_IMAGE
+# ci_features:
+#   - cppcheck: false
+#   - doxygen: false
+
+# TODO: https://cookiecutter.readthedocs.io/en/latest/advanced/user_config.html
+# abbreviations:
+#     pp: https://github.com/{0}/cookiecutter-pypackage.git
+#     gh: https://github.com/{0}.git
+#     bb: https://bitbucket.org/{0}
