@@ -7,3 +7,6 @@
 [submodule "demo-2/cookiecutter-kata-gtest"]
 	path = demo-2/cookiecutter-kata-gtest
 	url = https://github.com/13coders/cookiecutter-kata-gtest
+[submodule "demo-3/cookiecutter-python-cli"]
+	path = demo-3/cookiecutter-python-cli
+	url = https://github.com/xuanluong/cookiecutter-python-cli
