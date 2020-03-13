@@ -1,0 +1,4 @@
+## Runtime configuration for the abc_pyapp_xyz application.
+##
+core:
+  logging: WARN
