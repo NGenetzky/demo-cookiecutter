@@ -1,1 +1,47 @@
 
+DEBUG cookiecutter.config: config_path is user.yml
+DEBUG cookiecutter.main: context_file is ./cookiecutter-python-cli/cookiecutter.json
+DEBUG cookiecutter.generate: Context generated is OrderedDict([(u'cookiecutter', OrderedDict([(u'author_name', u'Xuan Luong'), (u'project_name', u''), (u'project_slug', u"{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}"), (u'command_name', u'{{cookiecutter.project_slug}}'), (u'description', u'{{cookiecutter.project_name}} is a Python CLI application generated from https://github.com/xuanluong/cookiecutter-python-cli'), (u'open_source_license', [u'MIT license', u'BSD license', u'ISC license', u'Apache Software License 2.0', u'GNU General Public License v3', u'Not open source'])]))])
+DEBUG cookiecutter.utils: Making sure path exists: /home/user/.cookiecutter_replay/
+DEBUG cookiecutter.find: Searching ./cookiecutter-python-cli for the project template.
+DEBUG cookiecutter.find: The project template appears to be ./cookiecutter-python-cli/{{cookiecutter.project_slug}}
+DEBUG cookiecutter.generate: Generating project from ./cookiecutter-python-cli/{{cookiecutter.project_slug}}...
+DEBUG cookiecutter.generate: Rendered dir output/abc_project_xyz must exist in output_dir output
+DEBUG cookiecutter.utils: Making sure path exists: output/abc_project_xyz
+DEBUG cookiecutter.utils: Created directory at: output/abc_project_xyz
+DEBUG cookiecutter.generate: Project directory is /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz
+DEBUG cookiecutter.hooks: hooks_dir is /workspace/workspaces/demo-cookiecutter/demo-3/cookiecutter-python-cli/hooks
+DEBUG cookiecutter.hooks: No pre_gen_project hook found
+DEBUG cookiecutter.generate: Rendered dir /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/tests must exist in output_dir output
+DEBUG cookiecutter.utils: Making sure path exists: /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/tests
+DEBUG cookiecutter.utils: Created directory at: /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/tests
+DEBUG cookiecutter.generate: Processing file README.md
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/README.md
+DEBUG cookiecutter.generate: Check README.md to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/README.md
+DEBUG cookiecutter.generate: Processing file .travis.yml
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/.travis.yml
+DEBUG cookiecutter.generate: Check .travis.yml to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/.travis.yml
+DEBUG cookiecutter.generate: Processing file {{cookiecutter.project_name}}.py
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/abc_project_xyz.py
+DEBUG cookiecutter.generate: Check {{cookiecutter.project_name}}.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/abc_project_xyz.py
+DEBUG cookiecutter.generate: Processing file .gitignore
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/.gitignore
+DEBUG cookiecutter.generate: Check .gitignore to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/.gitignore
+DEBUG cookiecutter.generate: Processing file LICENSE
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/LICENSE
+DEBUG cookiecutter.generate: Check LICENSE to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/LICENSE
+DEBUG cookiecutter.generate: Processing file requirements.txt
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/requirements.txt
+DEBUG cookiecutter.generate: Check requirements.txt to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/requirements.txt
+DEBUG cookiecutter.generate: Processing file tests/test_dummy.py
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/tests/test_dummy.py
+DEBUG cookiecutter.generate: Check tests/test_dummy.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-3/output/abc_project_xyz/tests/test_dummy.py
+DEBUG cookiecutter.hooks: hooks_dir is /workspace/workspaces/demo-cookiecutter/demo-3/cookiecutter-python-cli/hooks
+DEBUG cookiecutter.hooks: Running hook post_gen_project
