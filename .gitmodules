@@ -1,3 +1,6 @@
 [submodule "demo-0/cookiecutter-template"]
 	path = demo-0/cookiecutter-template
 	url = https://github.com/eviweb/cookiecutter-template.git
+[submodule "demo-1/cookiecutter-python-app"]
+	path = demo-1/cookiecutter-python-app
+	url = https://github.com/mdklatt/cookiecutter-python-app
