@@ -6,10 +6,7 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
 fi
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
-# We could use this, but its better to examine them first.
-# template='gh:mdklatt/cookiecutter-python-app'
-TEMPLATE='./cookiecutter-kata-gtest'
+TEMPLATE='./cookiecutter-python-cli'
 
 readonly \
     SCRIPT_DIR \
