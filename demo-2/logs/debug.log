@@ -1,0 +1,63 @@
+
+DEBUG cookiecutter.config: config_path is user.yml
+DEBUG cookiecutter.main: context_file is ./cookiecutter-kata-gtest/cookiecutter.json
+DEBUG cookiecutter.generate: Context generated is OrderedDict([(u'cookiecutter', OrderedDict([(u'kata', u'CodeKata'), (u'etags', [u'y', u'n']), (u'_copy_without_render', [u'*lib']), (u'license', [u'GNU General Public License v3', u'MIT license', u'Apache Software License 2.0'])]))])
+DEBUG cookiecutter.utils: Making sure path exists: /home/user/.cookiecutter_replay/
+DEBUG cookiecutter.find: Searching ./cookiecutter-kata-gtest for the project template.
+DEBUG cookiecutter.find: The project template appears to be ./cookiecutter-kata-gtest/{{ cookiecutter.kata|lower }}
+DEBUG cookiecutter.generate: Generating project from ./cookiecutter-kata-gtest/{{ cookiecutter.kata|lower }}...
+DEBUG cookiecutter.generate: Rendered dir output/abc_kata_xyz must exist in output_dir output
+DEBUG cookiecutter.utils: Making sure path exists: output/abc_kata_xyz
+DEBUG cookiecutter.utils: Created directory at: output/abc_kata_xyz
+DEBUG cookiecutter.generate: Project directory is /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz
+DEBUG cookiecutter.hooks: hooks_dir is /workspace/workspaces/demo-cookiecutter/demo-2/cookiecutter-kata-gtest/hooks
+DEBUG cookiecutter.hooks: No hooks/ dir in template_dir
+DEBUG cookiecutter.hooks: No pre_gen_project hook found
+DEBUG cookiecutter.generate: Copying dir lib to /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/lib without rendering
+DEBUG cookiecutter.generate: Rendered dir /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/test must exist in output_dir output
+DEBUG cookiecutter.utils: Making sure path exists: /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/test
+DEBUG cookiecutter.utils: Created directory at: /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/test
+DEBUG cookiecutter.generate: Rendered dir /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/src must exist in output_dir output
+DEBUG cookiecutter.utils: Making sure path exists: /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/src
+DEBUG cookiecutter.utils: Created directory at: /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/src
+DEBUG cookiecutter.generate: Rendered dir /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/include must exist in output_dir output
+DEBUG cookiecutter.utils: Making sure path exists: /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/include
+DEBUG cookiecutter.utils: Created directory at: /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/include
+DEBUG cookiecutter.generate: Rendered dir /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/.build must exist in output_dir output
+DEBUG cookiecutter.utils: Making sure path exists: /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/.build
+DEBUG cookiecutter.utils: Created directory at: /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/.build
+DEBUG cookiecutter.generate: Processing file README.md
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/README.md
+DEBUG cookiecutter.generate: Check README.md to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/README.md
+DEBUG cookiecutter.generate: Processing file .gitignore
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/.gitignore
+DEBUG cookiecutter.generate: Check .gitignore to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/.gitignore
+DEBUG cookiecutter.generate: Processing file LICENSE
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/LICENSE
+DEBUG cookiecutter.generate: Check LICENSE to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/LICENSE
+DEBUG cookiecutter.generate: Processing file CMakeLists.txt
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/CMakeLists.txt
+DEBUG cookiecutter.generate: Check CMakeLists.txt to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/CMakeLists.txt
+DEBUG cookiecutter.generate: Processing file test/{{ cookiecutter.kata }}Test.cpp
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/test/abc_kata_xyzTest.cpp
+DEBUG cookiecutter.generate: Check test/{{ cookiecutter.kata }}Test.cpp to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/test/abc_kata_xyzTest.cpp
+DEBUG cookiecutter.generate: Processing file src/{{ cookiecutter.kata }}.cpp
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/src/abc_kata_xyz.cpp
+DEBUG cookiecutter.generate: Check src/{{ cookiecutter.kata }}.cpp to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/src/abc_kata_xyz.cpp
+DEBUG cookiecutter.generate: Processing file include/{{ cookiecutter.kata }}.hpp
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/include/abc_kata_xyz.hpp
+DEBUG cookiecutter.generate: Check include/{{ cookiecutter.kata }}.hpp to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/include/abc_kata_xyz.hpp
+DEBUG cookiecutter.generate: Processing file .build/README.txt
+DEBUG cookiecutter.generate: Created file at /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/.build/README.txt
+DEBUG cookiecutter.generate: Check .build/README.txt to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /workspace/workspaces/demo-cookiecutter/demo-2/output/abc_kata_xyz/.build/README.txt
+DEBUG cookiecutter.hooks: hooks_dir is /workspace/workspaces/demo-cookiecutter/demo-2/cookiecutter-kata-gtest/hooks
+DEBUG cookiecutter.hooks: No hooks/ dir in template_dir
+DEBUG cookiecutter.hooks: No post_gen_project hook found
