@@ -8,8 +8,8 @@ fi
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # We could use this, but its better to examine them first.
-# template='gh:eviweb/cookiecutter-template'
-TEMPLATE='./cookiecutter-template'
+# template='gh:mdklatt/cookiecutter-python-app'
+TEMPLATE='./cookiecutter-python-app'
 
 readonly \
     SCRIPT_DIR \
@@ -23,8 +23,7 @@ main(){
         --debug-file "logs/debug.log" \
         --config-file "user.yml" \
         --output-dir "output" \
-        "${TEMPLATE}" \
-        copy_hooks='yes'
+        "${TEMPLATE}"
 }
 
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
