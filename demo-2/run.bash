@@ -9,7 +9,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # We could use this, but its better to examine them first.
 # template='gh:mdklatt/cookiecutter-python-app'
-TEMPLATE='./cookiecutter-python-app'
+TEMPLATE='./cookiecutter-kata-gtest'
 
 readonly \
     SCRIPT_DIR \
