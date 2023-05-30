@@ -1,0 +1,10 @@
+site_name: pytest-abc_pytestplugin_xyz
+site_description: A simple plugin to use with pytest
+site_author: Nathan Genetzky
+
+theme: readthedocs
+
+repo_url: https://github.com/hackebrot/pytest-abc_pytestplugin_xyz
+
+pages:
+- Home: index.md
