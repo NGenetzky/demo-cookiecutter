@@ -1,4 +1,17 @@
 # Reference:
 default_context:
+
+    ################################################################################
+    # https://github.com/pytest-dev/cookiecutter-pytest-plugin
+
+    # pytest_version: "3.5.0"
+    # version: "0.1.0"
+    #module_name: "{{ cookiecutter.plugin_name|lower|replace('-', '_') }}"
+    email: "nathan@genetzky.us"
     full_name: "Nathan Genetzky"
-    email: "nathan.genetzky@dojofive.com"
+    github_username": "ngenetzky"
+    plugin_name: "abc_pytestplugin_xyz"
+    short_description: "A simple plugin to use with pytest"
+
+    # https://github.com/pytest-dev/cookiecutter-pytest-plugin
+    ################################################################################

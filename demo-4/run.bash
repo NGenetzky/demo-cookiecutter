@@ -6,7 +6,8 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
 fi
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-TEMPLATE='./cookiecutter-python-cli'
+TEMPLATE='cookiecutter-pytest-plugin'
+# TEMPLATE='https://github.com/pytest-dev/cookiecutter-pytest-plugin'
 
 readonly \
     SCRIPT_DIR \
@@ -16,8 +17,8 @@ main(){
     cd "${SCRIPT_DIR}"
 
     # --no-input # TODO: Less input the better
+    # --debug-file "log.debug.log"
     cookiecutter  -v \
-        --debug-file "logs/debug.log" \
         --config-file "user.yml" \
         --output-dir "output" \
         "${TEMPLATE}"
